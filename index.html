@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }
+                else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+    <title>Layout Responsivo</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><img class="imgLogo" src="assets/images/logo.png.png"></a>
+        </div>
+        <div class="menu">
+            <nav>
+                <div class="menuMobile">
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                </div>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>      
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<section id="banner">
+    <div class="container column">
+        <div class="banner-headline">
+            <h1>What is Lorem Ipsum?</h1>
+            <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+        </div>
+        <div class="banner-options">
+            <div class="banner1">
+                <div class="bannerTitle">What is Lorem Ipsum?</div>
+                <div class="bannerP">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                <a href="#">Read Me</a>
+            </div>
+            <div class="banner2">
+                <div class="bannerTitle">What is Lorem Ipsum?</div>
+                <div class="bannerP">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                <a href="#">Read Me</a>
+            </div>
+            <div class="banner3">
+                <div class="bannerTitle">What is Lorem Ipsum?</div>
+                <div class="bannerP">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                <a href="#">Read Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="content">
+    <div class="container">
+        <section>
+            <div class="widget">
+                <div class="widgetTitle">
+                    <div class="widgetTitleText">What is Lorem Ipsum?</div>
+                    <div class="widgetTitleBar"></div>
+                </div>
+                <div class="widgetBody flex">
+                    <article>
+                        <a href="#">
+                        <div class="newsDate">
+                            <div class="newsDatePost">12 SET 12</div>
+                            <div class="newsComents">2</div>
+                        </div>
+                        <div class="newsIMG"></div>
+                        <div class="newsTitleWidget">What is Lorem Ipsum?</div>
+                        <div class="newsPWidget">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#">
+                        <div class="newsDate">
+                            <div class="newsDatePost">12 SET 12</div>
+                            <div class="newsComents">2</div>
+                        </div>
+                        <div class="newsIMG"></div>
+                        <div class="newsTitleWidget">What is Lorem Ipsum?</div>
+                        <div class="newsPWidget">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#">
+                        <div class="newsDate">
+                            <div class="newsDatePost">12 SET 12</div>
+                            <div class="newsComents">2</div>
+                        </div>
+                        <div class="newsIMG"></div>
+                        <div class="newsTitleWidget">What is Lorem Ipsum?</div>
+                        <div class="newsPWidget">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#">
+                        <div class="newsDate">
+                            <div class="newsDatePost">12 SET 12</div>
+                            <div class="newsComents">2</div>
+                        </div>
+                        <div class="newsIMG"></div>
+                        <div class="newsTitleWidget">What is Lorem Ipsum?</div>
+                        <div class="newsPWidget">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                        </a>
+                    </article>
+                    
+                </div>
+            </div>
+        </section>
+        <aside>
+            <div class="widget">
+                <div class="widgetTitle">
+                    <div class="widgetTitleText">What is Lorem Ipsum?</div>
+                    <div class="widgetTitleBar"></div>
+                </div>
+                <div class="widgetBody">
+                    <div class="widgetInfo"></div>
+                    <div class="widgetInfo"></div>
+                    <div class="widgetInfo"></div>
+                    <div class="widgetInfo"></div>
+                    <div class="widgetInfo"></div>
+                    <div class="widgetInfo"></div>
+                </div>
+            </div>
+            <div class="widget">
+                <div class="widgetTitle">
+                    <div class="widgetTitleText">What is Lorem Ipsum?</div>
+                    <div class="widgetTitleBar"></div>
+                    </div>
+                </div>
+                <div class="widgetBody">
+                    <div class="widgetText">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div class="barWidgetText"></div>
+                    <div class="widgetInfoTextBottom">Lorem Ipsum is simply dummy text</div>
+                    <div class="barWidgetText"></div>
+                    <div class="widgetInfoTextBottom">Lorem Ipsum is simply dummy text</div>
+                    <div class="barWidgetText"></div>
+                    <div class="widgetInfoTextBottom">Lorem Ipsum is simply dummy text</div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</section>
+<footer>
+    <div class="container flexColumn">
+        <div class="footerBox">
+            <div class="box1">
+                <div class="titleBox">
+                    What is Lorem Ipsum?
+                </div>
+                <div class="descBox">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </div>
+            </div>
+            <div class="box2">
+                <div class="titleBox">
+                    What is Lorem Ipsum?
+                </div>
+                <div class="descBox">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </div>
+            </div>
+            <div class="box3">
+                <div class="titleBox">
+                    What is Lorem Ipsum?
+                </div>
+                <div class="descBox">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </div>
+            </div>
+        </div>
+        <div class="footerArea">
+            <div class="footerAreaItem">
+                <div class="widget">
+                    <div class="widgetTitle">
+                        <div class="widgetTitleText">What is Lorem Ipsum?</div>
+                        <div class="widgetTitleBar"></div>
+                    </div>
+                    <div class="widgetBody">
+                        <div class="footerDesc1">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </div>
+                        <div class="footerDesc2">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerAreaItem">
+                <div class="widget">
+                    <div class="widgetTitle">
+                        <div class="widgetTitleText">What is Lorem Ipsum?</div>
+                        <div class="widgetTitleBar"></div>
+                    </div>
+                    <div class="widgetBody">
+                        <div class="footerDesc1">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </div>
+                        <div class="footerDesc2">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerAreaItem">
+                <div class="widget">
+                    <div class="widgetTitle">
+                        <div class="widgetTitleText">What is Lorem Ipsum?</div>
+                        <div class="widgetTitleBar"></div>
+                    </div>
+                    <div class="widgetBody">
+                        <div class="footerDesc1">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </div>
+                        <div class="footerDesc2">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="copyEnd">Feito com AMOR por Miguel Elpidio</div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
